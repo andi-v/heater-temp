@@ -1,0 +1,28 @@
+.heater-clock {
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.target-temp-label {
+    text-align: center;
+}
+
+.react-clock__hand__body {
+    bottom: 50% !important;
+    width: 3px !important;
+}
+
+.react-clock__hour-mark:nth-child(53) {
+    .react-clock__hour-mark__body {
+        top: -15px !important;
+    }
+}
+
+.react-clock__hour-mark:nth-child(55) {
+    .react-clock__hour-mark__body {
+        top: -15px !important;
+    }
+}
